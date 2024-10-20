@@ -1,4 +1,4 @@
-const asioBindings = require("./build/Release/asioChannelName.node");
+const asioBindings = require("bindings")("asioChannelName.node");
 
 function AsioChannelName() {
   let asioChannelName = {};
