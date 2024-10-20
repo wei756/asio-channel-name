@@ -1,0 +1,20 @@
+{
+  "name": "asio-channel-name",
+  "version": "1.0.0",
+  "description": "Display the ASIO device's channels name.",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "keywords": [
+    "audio",
+    "asio"
+  ],
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "author": "wei756",
+  "license": "MIT",
+  "dependencies": {
+    "bindings": "^1.5.0"
+  },
+  "gypfile": true
+}
